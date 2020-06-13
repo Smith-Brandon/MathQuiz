@@ -43,7 +43,7 @@ public class MainPage implements Runnable {
 						result.setText("Correct");
 						// Then end program
 						try {
-				            Thread.sleep(1000);
+				            Thread.sleep(1500);
 				        } catch (InterruptedException q) {
 				            System.err.println(e.toString());
 				        }

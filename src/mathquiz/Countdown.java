@@ -5,7 +5,7 @@ public class Countdown implements Runnable{
 	@Override
 	public void run() {
 		try {
-            Thread.sleep(14000);
+            Thread.sleep(18000);
         } catch (InterruptedException e) {
             System.err.println(e.toString());
         }
